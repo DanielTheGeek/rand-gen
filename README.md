@@ -13,9 +13,9 @@ This library can be used for generating ticket ID's, user ID's or anything that 
 * Add a `composer.json` file to your project:
     ```json
         {
-        "require": {
-            "danielthegeek/rand-gen": "dev-master"
-        }
+            "require":  {
+                "danielthegeek/rand-gen": "dev-master"
+            }
         }
     ```
 * Run the Composer installer:
@@ -31,28 +31,31 @@ And you're good to go.
 
 ## Usage
 
-# Loading the library:
+### Loading the library:
   ```php
     class Example extends CI_Controller 
     {
-      public function myFunction()
-      {
-        $this->load->library('rand_gen');
-      }
+        public function myFunction()
+        {
+            $this->load->library('rand_gen');
+        }
     }
   ```
 or auto load the library if you plan on using it frequently by editing `application/config/autoload.php`
   ```php
-    $autoload['libraries'] = array('rand_gen');
+        $autoload['libraries'] = array('rand_gen');
   ```
-# Generating random string
+### Generating random string
 Call the `generate()` method. The `generate()` method accepts two arguments: Length (Int)  and Type ('alpha'|'numeric'|'alpha-numeric').
-*Length - The length of the string to be generated
-*Type - The string type to be generated. 
+Arguments | Description
+------------ | -------------
+Length | The length of the string to be generated
+Type | The string type to be generated.
+
 The string type value can be: 
-`alpha` - Generates a string that contains only alphabets, 
-`numeric` - Generates a string that contains only numbers or 
-`alpha-numeric` - Generates a string that contains a combination of alphabets and numbers
+* `alpha` - Generates a string that contains only alphabets, 
+* `numeric` - Generates a string that contains only numbers or 
+* `alpha-numeric` - Generates a string that contains a combination of alphabets and numbers
 If a string type is not defined, the default combination will be used.
 For example:
   ```php
