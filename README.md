@@ -12,20 +12,20 @@ This library can be used for generating ticket ID's, user ID's or anything that 
     ```
 * Add a `composer.json` file to your project:
     ```json
-        {
-            "require":  {
-                "danielthegeek/rand-gen": "dev-master"
-            }
-        }
+    {
+      "require": {
+        "danielthegeek/rand-gen": "dev-master"
+      }
+    }
     ```
 * Run the Composer installer:
     ```bash
-        php composer.phar install
+    php composer.phar install
     ```
 * Copy the `Rand_gen.php` file from `path/to/project/vendor/danielthegeek/rand-gen/src` to your CI library folder normally located at `path/to/project/application/libraries`. For example:
     ```bash
-        $ cd /var/www/html/example-project
-        $ cp vendor/danielthegeek/rand-gen/src/Rand_gen.php application/libraries
+    $ cd /var/www/html/example-project
+    $ cp vendor/danielthegeek/rand-gen/src/Rand_gen.php application/libraries
     ```
 And you're good to go.
 
@@ -48,7 +48,7 @@ or auto load the library if you plan on using it frequently by editing `applicat
 ### Generating random string
 Call the `generate()` method. The `generate()` method accepts two arguments: Length (Int)  and Type ('alpha'|'numeric'|'alpha-numeric').
 Arguments | Description
------------- | -------------
+--------- | -----------
 Length | The length of the string to be generated
 Type | The string type to be generated.
 
