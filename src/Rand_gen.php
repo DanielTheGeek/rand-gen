@@ -6,7 +6,7 @@
 	* @author 	Daniel Omoniyi
 	* @link 	https://www.github.com/danielthegeek/RandGen 
 	* @license	http://opensource.org/licenses/MIT	MIT License
-	* @version	0.0.7
+	* @version	1.0.0
 	**/
 
 
