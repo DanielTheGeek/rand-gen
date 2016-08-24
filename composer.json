@@ -1,5 +1,5 @@
 {
-	"name": "danielthegeek/randgen",
+	"name": "danielthegeek/rand-gen",
 	"type": "library",
 	"description": "Random string generator for the CodeIgniter framework",
 	"keywords": [
