@@ -6,11 +6,11 @@ This library can be used for generating ticket ID's, user ID's or anything that 
 * PHP >=5.2.4
 
 ## Installation via [Composer](http://getcomposer.org/)
-* Install Composer to your project root:
+#### Install Composer to your project root:
     ```bash
         $ curl -sS https://getcomposer.org/installer | php
     ```
-* Add a `composer.json` file to your project:
+#### Add a `composer.json` file to your project:
     ```json
     {
       "require": {
@@ -18,11 +18,11 @@ This library can be used for generating ticket ID's, user ID's or anything that 
       }
     }
     ```
-* Run the Composer installer:
+#### Run the Composer installer:
     ```bash
     php composer.phar install
     ```
-* Copy the `Rand_gen.php` file from `path/to/project/vendor/danielthegeek/rand-gen/src` to your CI library folder normally located at `path/to/project/application/libraries`. For example:
+#### Copy the `Rand_gen.php` file from `path/to/project/vendor/danielthegeek/rand-gen/src` to your CI library folder normally located at `path/to/project/application/libraries`. For example:
     ```bash
     $ cd /var/www/html/example-project
     $ cp vendor/danielthegeek/rand-gen/src/Rand_gen.php application/libraries
@@ -47,10 +47,11 @@ or auto load the library if you plan on using it frequently by editing `applicat
   ```
 ### Generating random string
 Call the `generate()` method. The `generate()` method accepts two arguments: Length (Int)  and Type ('alpha'|'numeric'|'alpha-numeric').
+
 Arguments | Description
 --------- | -----------
-Length | The length of the string to be generated
-Type | The string type to be generated.
+Length  |   The length of the string to be generated
+Type    |   The string type to be generated.
 
 The string type value can be: 
 * `alpha` - Generates a string that contains only alphabets, 
