@@ -47,7 +47,7 @@ class Example extends CI_Controller
  ```
 or auto load the library if you plan on using it frequently by editing `application/config/autoload.php`
 ```php
-    $autoload['libraries'] = array('rand_gen');
+$autoload['libraries'] = array('rand_gen');
 ```
 ### Generating random string
 Call the `generate()` method. The `generate()` method accepts two arguments: Length (Int)  and Type ('alpha'|'numeric'|'alpha-numeric').
