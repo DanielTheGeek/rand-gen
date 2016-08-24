@@ -25,11 +25,9 @@
 		}
 
 		/** 
-		*  Generator, accepts three arguments
-		*  @var $len, numeric value
-		*  @var $type, string type
-		*  @var $save, Boolean: 
-		*  TRUE (Will store generated string), FALSE (Will not store generated string)
+		*  Generator, accepts two arguments
+		*  @param $len Int: String length
+		*  @param $type: String type [alpha|numeric|alpha_numeric]  
 		**/
 
 		public function generate($len, $type="") 
