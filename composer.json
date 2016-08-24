@@ -1,6 +1,6 @@
 {
 	"description": "Random string generator for the CodeIgniter framework",
-	"name": "danielomoniyi/RandGen",
+	"name": "danielthegeek/RandGen",
 	"version": "1.0.0",
 	"keywords": [
 		"random", "danielomoniyi", "string", "generator", "codeigniter", "library", "RandGen"
