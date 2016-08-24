@@ -1,9 +1,9 @@
 {
 	"description": "Random string generator for the CodeIgniter framework",
-	"name": "danielomoniyi/randgen",
+	"name": "danielomoniyi/RandGen",
 	"version": "1.0.0",
 	"keywords": [
-		"random", "danielomoniyi", "string", "generator", "codeigniter", "library"
+		"random", "danielomoniyi", "string", "generator", "codeigniter", "library", "RandGen"
 	],
 	"authors": [
 		{
@@ -12,7 +12,7 @@
 			"role": "Developer"
 		}
 	],
-	"type": "library",
+	"type": "php",
 	"homepage": "https://github.com/DanielTheGeek/RandGen",
 	"license": "MIT",
 	"require": {

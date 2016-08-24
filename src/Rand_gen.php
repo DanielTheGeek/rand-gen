@@ -28,6 +28,7 @@
 		*  Generator, accepts two arguments
 		*  @param $len Int: String length
 		*  @param $type: String type [alpha|numeric|alpha_numeric]  
+		*  @return $output
 		**/
 
 		public function generate($len, $type="") 
