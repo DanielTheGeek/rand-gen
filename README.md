@@ -37,12 +37,9 @@ And you're good to go.
 
 ### Loading the library:
 ```php
-class Example extends CI_Controller 
+public function myFunction()
 {
-    public function myFunction()
-    {
-        $this->load->library('rand_gen');
-    }
+  $this->load->library('rand_gen');
 }
  ```
 or auto load the library if you plan on using it frequently by editing `application/config/autoload.php`
