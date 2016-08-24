@@ -1,5 +1,5 @@
 # RandGen v1.0.0
-CodeIgniter random string generator library
+CodeIgniter random string generator library.
 This library can be used for generating ticket ID's, user ID's or anything that needs randomness :-).
 
 ## Requirements
@@ -8,28 +8,29 @@ This library can be used for generating ticket ID's, user ID's or anything that 
 ## Installation via [Composer](http://getcomposer.org/)
 * Install Composer to your project root:
     ```bash
-    $ curl -sS https://getcomposer.org/installer | php
+        $ curl -sS https://getcomposer.org/installer | php
     ```
 * Add a `composer.json` file to your project:
     ```json
-    {
-      "require": {
-        "danielthegeek/rand-gen": "dev-master"
-      }
-    }
+        {
+        "require": {
+            "danielthegeek/rand-gen": "dev-master"
+        }
+        }
     ```
 * Run the Composer installer:
     ```bash
-    php composer.phar install
+        php composer.phar install
     ```
 * Copy the `Rand_gen.php` file from `path/to/project/vendor/danielthegeek/rand-gen/src` to your CI library folder normally located at `path/to/project/application/libraries`. For example:
     ```bash
-    $ cd /var/www/html/example-project
-    $ cp vendor/danielthegeek/rand-gen/src/Rand_gen.php application/libraries
+        $ cd /var/www/html/example-project
+        $ cp vendor/danielthegeek/rand-gen/src/Rand_gen.php application/libraries
     ```
 And you're good to go.
 
 ## Usage
+
 # Loading the library:
   ```php
     class Example extends CI_Controller 
