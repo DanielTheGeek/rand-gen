@@ -1,0 +1,20 @@
+{
+	"description": "Random string generator for the CodeIgniter framework",
+	"name": "danielomoniyi/randgen",
+	"keywords": [
+		"random", "danielomoniyi", "string", "generator", "codeigniter", "library"
+	],
+	"authors": [
+		{
+			"name": "Daniel Omoniyi",
+			"email": "daniel@rangostudios.com",
+			"role": "Developer"
+		}
+	],
+	"type": "library",
+	"homepage": "https://github.com/DanielTheGeek/RandGen",
+	"license": "MIT",
+	"require": {
+		"php": ">=5.2.4"
+	}
+}
