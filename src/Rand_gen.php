@@ -4,7 +4,7 @@
 	/**
 	* @library	RandGen
 	* @author 	Daniel Omoniyi
-	* @link 	https://www.github.com/danielthegeek/RandGen 
+	* @link 	https://www.github.com/danielthegeek/rand-gen
 	* @license	http://opensource.org/licenses/MIT	MIT License
 	* @version	1.0.0
 	**/
@@ -57,7 +57,7 @@
 				break;
 				default:
 					$chars = "abcdefghijklmnopqrstuvwxyzU\$VW01QRST23E\FGHI/456JKLMNOP78XYZ9ABCD";
-					$randChars = md5(md5(strtotime(time()).$chars)).$chars;
+					$randChars = md5(md5(sqrt(time()).$chars)).$chars;
 					$output = $this->randomize($randChars,$len);
 					return $output;
 				break;
